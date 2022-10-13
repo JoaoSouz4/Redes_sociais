@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&family=Oooh+Baby&family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    padding: 30px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+#titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.37);
+    font-size: 15px;
+    margin: 10px;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.bloco-principal{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.msg{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Oooh Baby', cursive;
+}
+
+#facebook{
+    background-color: rgb(43, 43, 255);
+}
+#instagram{
+    background-color: #fd0596;
+}
+#mudarcor{
+    color:  rgb(0, 204, 255);
+}
+
+.itens-button{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.creditos{
+    display: flex;
+    color: rgb(143, 143, 143);
+    font-size: 10px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+

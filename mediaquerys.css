@@ -1,0 +1,26 @@
+
+@media screen  and (max-width: 480px){
+    .bloco-principal{
+        width: 400px;
+    }
+}
+
+@media screen  and (max-width: 399px){
+
+    .titulos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+    .bloco-principal{
+        width: 300px;
+    }
+}
+
+@media screen  and (max-width: 298px){
+
+    .bloco-principal{
+        width: 250px;
+    }
+}
